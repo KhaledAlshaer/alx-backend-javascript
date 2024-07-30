@@ -13,7 +13,7 @@ export default getListStudents() {
 		{
 			id: 3,
 			firstName: "Serena",
-			location: San Francisco,
+			location: "San Francisco",
 		},
 	];
 }
