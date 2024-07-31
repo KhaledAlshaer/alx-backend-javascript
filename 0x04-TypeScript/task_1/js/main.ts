@@ -30,7 +30,7 @@ interface StudentClassInterface {
   displayName(): string;
 }
 
-class StudentClass {
+class StudentClass implements StudentClassInterface {
 	firstName: string;
 	lastName: string;
 
