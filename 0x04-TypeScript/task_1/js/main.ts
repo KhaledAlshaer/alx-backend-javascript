@@ -20,6 +20,16 @@ interface printTeacherFunction {
 	(firstName: string, lastName: string): string;
 }
 
+interface StudentConstructor {
+  firstName: string;
+  lastName: string;
+}
+
+interface StudentClassInterface {
+  workOnHomework(): string;
+  displayName(): string;
+}
+
 class StudentClass {
 	firstName: string;
 	lastName: string;
